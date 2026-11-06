@@ -53,14 +53,11 @@ void PrintKyes(int NumberOfKeys)
         cout << "Key [" << i << "] : " << GenerateKey(4, 4) << endl;
     }
 }
+
 int main()
 {
     srand((unsigned)time(NULL));
- 
+
     PrintKyes(ReadPositiveNumber("Please Enter a Number of Keys : "));
-    
-
-
-
     return 0;
 }
