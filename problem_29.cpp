@@ -57,14 +57,14 @@ bool isPrimeNumber(int Number)
     return true;
 } 
 
-void CopyPrimeNumbersInArray(const int arrSourse[], int arrcopy[], int arrlength, int &arrCopyLength)
+void CopyPrimeNumbersInArray(const int arrSource[], int arrcopy[], int arrlength, int &arrCopyLength)
 {
     arrCopyLength = 0;
     for(int i = 0; i < arrlength; i++)
     {
-        if(isPrimeNumber(arrSourse[i]))
+        if(isPrimeNumber(arrSource[i]))
         {
-            arrcopy[arrCopyLength] = arrSourse[i];
+            arrcopy[arrCopyLength] = arrSource[i];
             arrCopyLength++;
         }
     }
